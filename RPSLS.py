@@ -2,11 +2,11 @@ __author__ = 'Jonas'
 ##Assignment 1
 
 ##Name to number assignments
-#0 — rock
-#1 — Spock
-#2 — paper
-#3 — lizard
-#4 — scissors
+#0  rock
+#1  Spock
+#2  paper
+#3  lizard
+#4  scissors
 
 import random
 
