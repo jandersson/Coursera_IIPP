@@ -45,14 +45,14 @@ def number_to_name(number):
         print 'Invalid number!'
 
 def rpsls(player_choice):
-    print "\nYou chose", player_choice
+    print "\nPlayer chooses", player_choice
     player_number = name_to_number(player_choice)
     comp_number = random.randrange(0,5)
     comp_name = number_to_name(comp_number)
-    print "Computer chose", comp_name
+    print "Computer chooses", comp_name
     diff = (player_number - comp_number) % 5
     if diff == 0:
-        print 'Draw!'
+        print 'Player and computer tie!'
     elif diff == 1:
         print 'Player wins!'
     elif diff == 2:
